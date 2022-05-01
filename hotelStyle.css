@@ -1,0 +1,355 @@
+/*our colors #0067B3   #40B0DF #FFD53D light*/
+*{
+    box-sizing: border-box;
+  
+    text-decoration: none;
+    font-family:cursive;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin-left: 10px;
+    
+}
+.header{
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #144da3;
+    color: #FFD53D;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 0.7s ease;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    
+   
+    
+
+}
+.header a{
+    color: #FFD53D;
+    padding: 20px;
+    font-size: 1.2em;
+}
+.header a:hover{
+  color: #fff;
+  text-shadow: 2px 2px 8px #FFD53D;
+ 
+ 
+}
+.icon-style{
+    font-size: 2em;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffd53d;
+    border: none;
+}
+
+#home{
+    padding-left: 40px;
+}
+.dropdown-menu{
+    display: none;
+}
+
+h3{
+    padding: 10px;
+}
+section{
+    padding: 100px 10px 10px 10px;
+}
+.img-cont{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 0px solid #FFD53D;
+    border-radius: 10px;
+   
+    
+  
+}
+.img-cont img{
+  
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.4s ease-in-out;
+    
+}
+
+.img-cont img:hover{
+   transform: scale(1.22);
+   margin-left: 20px;
+   margin-right: 20px;
+   cursor: pointer;
+   
+}
+.img-cont button{
+   
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 100px;
+    border-color: #fff;
+    background-color: #ffd53d;
+}
+.img-cont button i{
+    font-size: 5.1em;
+}
+
+.bookHotel{
+    display: flex;
+    padding: 14px;
+    margin: 10px;
+    background-color: #FFD53D;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    
+}
+.bookHotel input{
+    
+   padding: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: none;
+}
+#searchotel{
+ margin-left: 562px;
+ padding: 11px 152px;
+  margin-top: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #40B0DF;
+  border-radius: 15px;
+  background-color:  #40B0DF ;
+  cursor: pointer;
+  position: relative;
+ 
+}
+.bestOffers{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(24deg,#40c7df, #144da3);
+}
+
+.container{
+    width: 400px;
+    height: 440px;
+    overflow: hidden;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 30px;
+    transition: 0.7s ease;
+}
+.imagecard{
+    filter:grayscale(100) ;
+}
+.imagecard:hover{
+    filter: grayscale(0);
+}
+.container img{
+    width: 100%;
+}
+.reviews{
+    background-image: linear-gradient(240deg, #03171a, #0080b3);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    
+}
+.recontainer{
+    width: 300px;
+    height: 470px;
+    padding: 10px;
+    border: 1px solid #FFD53D;
+    background-color: #FFD53D;
+    color: #0080b3;
+    font-weight: 400;
+    margin: 10px;
+    
+}
+.reviews img{
+    width: 100%;
+    height: 20%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.blue{
+    background-color: #007db3;
+    border: #03171a;
+    color: #FFD53D;
+}
+.recontainer{
+    width: 100%;
+    height: 600px;
+}
+.recontainer:hover{
+    background-color: #011019;
+    color: #fff;
+    border: none;
+   
+}
+::selection{
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 195, 255);
+}
+.video{
+    background-image: linear-gradient(256deg, #03171a, #0080b3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFD53D;
+}
+.video h2{
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.video video{
+    width: 600px;
+    height: 450px;
+    border-radius: 15px;
+}
+.footer{
+    background-color: #FFD53D;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+.links{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+
+}
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.fakeHotel{
+    width: 400px;
+   min-height: 250px;
+    border: 1px solid var(--font-color-old) ;
+    border-radius: 10px;
+    background-color: var(--light-second-color);
+    margin: 20px;
+}
+.fakeHotel img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+   border: 3px double var(--light-main-color);
+}
+.results{
+   visibility:hidden;
+   height: 0;
+   margin-top: 10px;
+  
+}
+#hideSearch{
+ margin-left: 32px;
+ padding: 11px 152px;
+  margin-top: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #40B0DF;
+  border-radius: 15px;
+  background-color:  #40B0DF ;
+  cursor: pointer;
+  position: relative;
+ 
+}
+#show{
+    margin-left: 32px;
+ padding: 11px 152px;
+  margin-top: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #40B0DF;
+  border-radius: 15px;
+  background-color:  #40B0DF ;
+  cursor: pointer;
+  position: relative;
+}
+#starsRating{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+#starsRating button{
+  background-color: black;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 1.7ems;
+}
+#starsRating button:hover{
+    background-color: silver;
+}
+footer{
+    margin-top: 40px;
+    background-color: #144da3;
+    padding-bottom: 80px;
+    border: 1px solid #FFD53D;
+   
+
+}
+.footerContainer{
+    width: 100%;
+    height: 350px;
+    color: #ffd53d;
+    display: flex;
+    justify-content: space-between;
+}
+.footerContainer .footerTeam{
+    flex-direction: column;
+    display: flex;
+    margin: 40px;
+}
+.footerContainer .footerTeam h3{
+    margin-bottom: 30px;
+}
+
+.footerContainer .footerAbout{
+    flex-direction: column;
+    display: flex;
+    margin: 40px;
+}
+.footerContainer .footercopyr{
+    margin: 40px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.footerContainer a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #FFD53D;
+    font-weight: 600;
+}
+.footerAbout a{
+    padding-top: 14px;
+    font-weight: 600;
+    font-size: 21px;
+}
