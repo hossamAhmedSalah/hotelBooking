@@ -245,9 +245,9 @@ section{
 .fakeHotel{
     width: 400px;
    min-height: 250px;
-    border: 1px solid var(--font-color-old) ;
+   border: 1px solid #007db3 ;
     border-radius: 10px;
-    background-color: var(--light-second-color);
+    background-color: #40B0DF;
     margin: 20px;
 }
 .fakeHotel img{
@@ -255,7 +255,7 @@ section{
     height: 200px;
     border-radius: 10px;
     margin-left: 20px;
-   border: 3px double var(--light-main-color);
+   border: 3px double #007db3;
 }
 .results{
    visibility:hidden;
