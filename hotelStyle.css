@@ -6,6 +6,7 @@
     font-family:cursive;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 #logo{
     margin-left: 10px;
@@ -48,15 +49,52 @@
     border-radius: 50%;
     background-color: #ffd53d;
     border: none;
+    cursor: pointer;
 }
 
 #home{
     padding-left: 40px;
 }
-.dropdown-menu{
-    display: none;
+/*header drop-menu*/
+.menu{
+  
+  margin-left: 30px;
 }
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #ffd242;
+    padding: 5px 12px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .menu ul li a:hover {
+    color: white;
+    transition: 0.6s;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .dropdown-menu ul {
+    display: block;
+  }
+  .dropdown-menu ul li{
+      padding: 8px;
+  }
 
+  .menu ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color:#144da3;
+    padding: 15px;
+
+  }
+  
 h3{
     padding: 10px;
 }
@@ -110,6 +148,7 @@ section{
     background-color: #FFD53D;
     flex-wrap: wrap;
     border-radius: 15px;
+    
     
 }
 .bookHotel input{
@@ -245,7 +284,7 @@ section{
 .fakeHotel{
     width: 400px;
    min-height: 250px;
-   border: 1px solid #007db3 ;
+    border: 1px solid #007db3 ;
     border-radius: 10px;
     background-color: #40B0DF;
     margin: 20px;
@@ -255,7 +294,7 @@ section{
     height: 200px;
     border-radius: 10px;
     margin-left: 20px;
-   border: 3px double #007db3;
+   border: 3px double var(--light-main-color);
 }
 .results{
    visibility:hidden;
